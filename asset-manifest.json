@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/OnlineShoppingDjangoReactApp/static/css/main.ac9a8181.css",
+    "main.js": "/OnlineShoppingDjangoReactApp/static/js/main.6f0cfb51.js",
+    "index.html": "/OnlineShoppingDjangoReactApp/index.html",
+    "main.ac9a8181.css.map": "/OnlineShoppingDjangoReactApp/static/css/main.ac9a8181.css.map",
+    "main.6f0cfb51.js.map": "/OnlineShoppingDjangoReactApp/static/js/main.6f0cfb51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac9a8181.css",
+    "static/js/main.6f0cfb51.js"
+  ]
+}
