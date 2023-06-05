@@ -9,6 +9,7 @@ const currentTab = (history, path) => {
         }
     } else {
         return {
+            
             color: "#FFFFFF"
         }
     }
@@ -44,11 +45,12 @@ const Menu = ({history, path}) => {
             )}
             {isAuthenticated() && (
                 <li className='nav-item'>
-                    <span onClick={()=>{signout(()=>{
+                    <span style={{cursor:"pointer"}} onClick={()=>{signout(()=>{
                         history.push("/")
                         })}} className='nav-link text-warning'>
                         Signout
                     </span>
+
                 </li>
             )}
         </ul>

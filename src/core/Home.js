@@ -3,6 +3,7 @@ import { getProducts } from './helper/coreapicalls';
 import Base from './Base';
 import "../styles.css"
 import Card from './Card';
+import Loader from './Loader';
 
 export default function Home(){
 
@@ -28,7 +29,7 @@ export default function Home(){
 
     if(products == null){
         return(
-            <div className='text-white'>loading...</div>
+            <Loader/>
         )
     }
 
